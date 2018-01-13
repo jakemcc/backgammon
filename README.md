@@ -1,6 +1,6 @@
 # bg
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to ... well, that part is up to you.
+Multiplayer backgammon game that uses Firebase for shared state
 
 ## Development Mode
 
