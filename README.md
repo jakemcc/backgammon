@@ -4,7 +4,7 @@ Multiplayer backgammon game that uses Firebase for shared state.
 
 This project was used as the example for a talk I gave at IN/Clojure 2018 on titled "Serverless Applications using ClojureScript and Firebase."
 
-# To run:
+# Necessary steps to run:
 
 1. Sign up for [firebase](firebase.com)
 1. Make a project through the console.
@@ -13,6 +13,10 @@ This project was used as the example for a talk I gave at IN/Clojure 2018 on tit
 1. `lein cljsbuild once min`
 1. `firebase deploy` (Local project won't work till this happens either because this will change some authentication settings for your firebase realtime database)
 1. `lein figwheel dev` for local development.
+
+# Additional Important Notes
+
+This project currently opens up the Firebase Realtime Database (FRD) to unauthenticated users (check out the `database.rules.json`) file. This is not ideal but was a simplification for the talk. If adapting this for another project, you should authenticate users and have some restrictions on what paths in your FRD they can access.
 
 ## Development Mode
 
