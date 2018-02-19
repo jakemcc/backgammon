@@ -2,7 +2,7 @@
 
 Multiplayer backgammon game that uses Firebase for shared state.
 
-This project was used as the example for a talk I gave at IN/Clojure 2018 on titled "Serverless Applications using ClojureScript and Firebase."
+This project was used as the example for this [talk](https://youtu.be/rMqo3lgxe7o) I gave at IN/Clojure 2018 on titled "Serverless Applications using ClojureScript and Firebase."
 
 A pdf of the presentation is found in this repo. Unfortunately, the gifs don't work but this was the best way of exporting from my presentation software.
 
