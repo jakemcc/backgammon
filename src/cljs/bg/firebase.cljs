@@ -6,12 +6,12 @@
 
 (defn init []
   (js/firebase.initializeApp
-   #js {:apiKey "API_KEY"
-        :authDomain "GET THESE"
-        :databaseURL "SETTINGS"
-        :projectId "FROM THE FIREBASE UI"
-        :storageBucket "ENJOY"
-        :messagingSenderId ":)"}))
+   #js {:apiKey "<API_KEY>"
+        :authDomain "<PROJECT_ID>.firebaseapp.com"
+        :databaseURL "https://<DATABASE_NAME>.firebaseio.com"
+        :projectId "<PROJECT_ID>FROM THE FIREBASE UI"
+        :storageBucket "<BUCKET>.appspot.com"
+        :messagingSenderId "<SENDER_ID>"}))
 
 (defn db-ref [path]
   (.ref (js/firebase.database) (string/join "/" path)))
