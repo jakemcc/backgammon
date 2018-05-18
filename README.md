@@ -8,7 +8,7 @@ A pdf of the presentation is found in this repo. Unfortunately, the gifs don't w
 
 # Necessary steps to run:
 
-1. Sign up for [firebase](firebase.com)
+1. Sign up for [firebase](https://firebase.com)
 1. Make a project through the console.
 1. Grab the configuration from the Firebase console and shove it [here](https://github.com/jakemcc/backgammon/blob/master/src/cljs/bg/firebase.cljs#L9-L14). (Pass it as an argument to the `firebase.initializeApp` function).
 1. Modify `.firebaserc` to use your project's id.
